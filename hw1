@@ -1,0 +1,37 @@
+from colorama import Fore, Back , Style
+
+def roof ():
+        print(Back.BLUE +" "* 35 +Back.RED +" "* 5 +Back.BLUE +" "*35+Style.RESET_ALL)
+        print(Back.BLUE +" "* 32 +Back.RED +" "*11 +Back.BLUE +" "*32+Style.RESET_ALL)
+        print(Back.BLUE +" "* 28 +Back.RED +" "*19 +Back.BLUE +" "*28+Style.RESET_ALL)
+        print(Back.BLUE +" "* 23 +Back.RED +" "*29 +Back.BLUE +" "*23+Style.RESET_ALL)
+        print(Back.BLUE +" "* 23 +Back.RED +" "*29 +Back.BLUE +" "*23+Style.RESET_ALL)
+    
+
+
+def column():
+    i = 1
+    while i < 7:
+        print(Back.BLUE +" "* 23 +Back.BLACK +" "* 29 +Back.BLUE +" "*23+Style.RESET_ALL)
+        i += 1
+
+def wind():
+    
+    i = 1
+    while i < 4:
+        print(Back.BLUE + " "* 23 + Back.BLACK + " "* 14 + Back.WHITE + " "* 11   + Back.BLACK + " "* 4 + Back.BLUE + " "* 23 + Style.RESET_ALL)
+        i += 1
+def dor() :
+    i=1
+    while i<6:
+        print(Back.BLUE + " "* 23 + Back.BLACK + " "* 10 + Back.YELLOW + " "* 9   + Back.BLACK + " "* 10 + Back.BLUE + " "* 23 + Style.RESET_ALL)
+        i+=1
+
+
+
+
+roof()
+column()
+wind()
+column()
+dor()
